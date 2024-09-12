@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 3 - Tabelas</title>
+<style>
+    table,td,th,tr{
+        border: 1px solid black;
+        border-collapse: collapse;
+
+    }
+</style>
+   <h1>Tabelas </h1>
+   
+   <h2>Tabela Simples</h2>
+
+   <table>
+    <tr>
+        <th>id_telefone</th>
+        <th>id_aluno</th>
+        <th>tipo</th>
+        <th>numero</th>
+    </tr>
+    <tr>
+        <td> 1</td>
+        <td> 1</td>
+        <td> casa</td>
+        <td> (51) 33333-22222</td>
+    </tr>
+    <tr>
+        <td> 2</td>
+        <td> 1</td>
+        <td> celular</td>
+        <td> (51) 99999-8888</td>
+    </tr>
+   </table>
+
+
+   <table>
+    <tr>
+        <th>Linguagenm</th>
+        <th>Framework</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Phyton</td>
+        <td>Flask</td>
+    </tr>
+    <tr>
+        <td>FlaskAPI</td>
+    </tr>
+    <tr>
+        <td rowspan="2">JavaScript</td>
+        <td>Express</td>
+    </tr>
+    <tr>
+        <td>Angular</td>
+    </tr>
+
+   </table>
+
+   <h2>Mesclar Tabelas</h2>
+   <table>
+    <tr>
+        <th>id_telefone</th>
+        <th>id_aluno</th>
+        <th>tipo</th>
+        <th>numero</th>
+    </tr>
+    <tr>
+        <td> 1</td>
+        <td> 1</td>
+        <td> casa</td>
+        <td> (51) 33333-22222</td>
+    </tr>
+    <tr>
+        <td> 2</td>
+        <td> 1</td>
+        <td colspan="2"> celular</td>
+        <tr>
+            <td> 1</td>
+            <td> 1</td>
+            <td> casa</td>
+            <td> (51) 33333-22222</td>
+        </tr>
+   </table>
+
+   <h2>Atividade Tabelas</h2>
+   <table>
+    
+    <th></th>
+    <th colspan="3">Demografia</th>
+
+   </table>
+
+</body>
+</html>
